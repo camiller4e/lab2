@@ -105,3 +105,15 @@ elsif
 
 end
 end
+
+def cube_volume(num1)
+  return(num1 ** 3)
+end
+
+def sphere_volume(radius)
+  return(Math::PI * 4/3 * radius**3)
+end
+
+def tempchange(f)
+  return(c = (f - 32) / 1.8)
+end
